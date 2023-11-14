@@ -1,21 +1,20 @@
-/* Header.css */
 
-/* Customize the Navbar */
+
+
 .bg-body-tertiary {
-    background-color: #yourBackgroundColor; /* Add your preferred background color */
+    background-color: #yourBackgroundColor; 
   }
   
-  /* Customize the Navbar Brand */
+ 
   .navbar-brand {
-    font-size: 30px; /* Add your preferred font size */
-    font-weight: bold; /* Add your preferred font weight */
-    text-align: center; /* Center the text */
-    width: 100%; /* Make the brand take up the full width of the Navbar */
+    font-size: 30px; 
+    font-weight: bold; 
+    text-align: center; 
+    width: 100%; 
   }
   
-  /* Customize the Navbar Links */
+  
   .nav-link {
-    color: #yourLinkTextColor; /* Add your preferred text color */
-    margin-right: 10px; /* Add spacing between links */
+    color: #yourLinkTextColor; 
+    margin-right: 10px; 
   }
-  

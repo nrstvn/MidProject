@@ -2,7 +2,7 @@ import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
 import Header from './component/header/Header'
-import Home from './component/home/home'
+import Home from './component/home/Home'
 import About from './component/about/About'
 import "./config/firebase";
 

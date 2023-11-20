@@ -4,7 +4,7 @@ import './App.css'
 import Header from './component/header/Header'
 import Home from './component/home/home'
 import About from './component/about/About'
-
+import "./config/firebase";
 
 function App() {
   const [count, setCount] = useState(0)

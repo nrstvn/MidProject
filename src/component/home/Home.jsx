@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./home.css";
+import { getDatabase, onValue, ref } from "firebase/database";
 
 const Home = () => {
+  const [Title, setTitle] = useState("");
+  const [Skill, setSkill] = useState("");
+  const [Image, setImage] = useState("");
+
+  useEffect(() => {
+    const db = getDatabase();
+    const homeRef = ref(db, "home/");
+    onValue(homeRef, (snapshot) => {
+      const data = snapshot.val();
+      setTitle(data.Title);
+      setSkill(data.Skill);
+      setImage(data.Image);
+    });
+  }, [];)
   return (
     <div className="container-fluid">
       <div className="row">
